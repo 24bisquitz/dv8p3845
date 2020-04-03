@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec="/home/inad/custom/fireTouch.sh"
+Hidden=false
+NoDisplay=false
+Name=Firefox Touch App
+GenericName=Firefox Touch App
+Categories=Internet;
+StartupNotify=false
+Comment=Firefox adjusted for touchscreen use
+Icon=firefox-default
