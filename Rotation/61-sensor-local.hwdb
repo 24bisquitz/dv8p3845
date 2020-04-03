@@ -1,0 +1,4 @@
+# copy to /etc/udev/hwdb.d/ to apply changes
+
+sensor:modalias:acpi:INVN6500*:dmi:*:svnDell*:pnVenue8Pro3845:*
+ ACCEL_MOUNT_MATRIX=0, -1, 0; -1, 0, 0; 0, 0, 1

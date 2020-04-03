@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec="/home/inad/custom/rotPort.sh"
+Hidden=false
+NoDisplay=false
+Name=Rotate Portrait
+GenericName=Rotate Portrait
+Categories=System;
+StartupNotify=false
+Comment=Rotate the screen and touchscreen to Portrait mode
+Icon=grsync
