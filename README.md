@@ -6,6 +6,8 @@ I have tried several OSs with the new Kernel (>5.0) and You can read about which
 
 GNOME surely would be the best interface for touchscreen-devices, but it uses too much RAM, which this tablet doesn't have.. Therefore I tried to stay away from GNOME.
 
+I want to use this tablet for fairly simple tasks: Browse the internet, watch movies, listen to music and use it at the uni during lectures. This implies several apps, which I want to use: Firefox, VLC, <music app name here> and Xournal/Xournal++.
+
 # DV8P Specs
 - **CPU**: Intel Atom Z3735G; Quad-core 1.33-1.83GHz; 2MB cache; 64-bit supported
 - **GPU**: Intel HD integrated graphics (Bay Trail)
