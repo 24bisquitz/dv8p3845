@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec="/home/inad/custom/rotLand.sh"
+Exec="/.../rotLand.sh"
 Hidden=false
 NoDisplay=false
 Name=Rotate Landscape
@@ -8,4 +8,4 @@ GenericName=Rotate Landscape
 Categories=System;
 StartupNotify=false
 Comment=Rotate the screen and touchscreen to Landscape mode
-Icon=converseen
+Icon=
