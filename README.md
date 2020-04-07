@@ -13,52 +13,205 @@ I have tried several OSs with the new Kernel (>5.0) and You can read about which
 - **Storage**: 32 GB (30.1 GB) eMMC, MicroSD-Slot for up to 64 GB extra space
 
 # Androidx86 9.0r1
+## Installation:
+
 ## Things that work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Things that don't work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Overall impression:
 First of all, I tested the Android x86 (link) project, which worked quite well for 5-6 hours, but then started freezing randomly. I saw some hints on the net, that the problem might be with the google apps, but I have not investigated this matter any further.
 
+## Useful preinstalled apps
+
 # Fedora 31 LXDE
+## Installation:
+
 ## Things that work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Things that don't work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Overall impression:
+
+## Useful preinstalled apps
 
 # Fedora 31 LXQt
+## Installation:
+
 ## Things that work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Things that don't work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Overall impression:
+
+## Useful preinstalled apps
 
 # Fedora 31 Xfce
+## Installation:
+
 ## Things that work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Things that don't work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Overall impression:
+
+## Useful preinstalled apps
 
 # ElementaryOS 5.1 Hera (18.04.3 Ubuntu LTS)
+## Installation:
+
 ## Things that work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Things that don't work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Overall impression:
+
+## Useful preinstalled apps
 
 # Ubuntu MATE 19.04 Minimal
+## Installation:
+
 ## Things that work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Things that don't work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Overall impression:
+
+## Useful preinstalled apps
 
 # Manjaro Xfce 32-bit 18.0.4 Illyria
+## Installation:
+
 ## Things that work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Things that don't work OOTB:
+- **Bluetooth**:
+- **Wifi**:
+- **Camera**:
+- **Audio**:
+- **Brightness Adjustment**:
+- **Rotation**:
+- **Powerbutton**:
+- **Login**:
+- **Touch**:
 
 ## Overall impression:
 
+## Useful preinstalled apps
