@@ -2,7 +2,7 @@
 
 Here You can find some workarounds and tweaks for different Linux OSs on the **Dell Venue 8 Pro (3845)** Tablet, to make them tablet friendly and usable on a low-end tablet like the DV8P.
 
-I have tried several OSs with the new Kernel (>5.0) and You can read about which one would suit your needs best. All OS were 64-bit except for Manjaro Xfce.
+I have tried several OSs with the new Kernel (>5.0) and below You can read about which one would suit your needs best. All OS were 64-bit except for Manjaro Xfce.
 
 GNOME surely would be the best interface for touchscreen-devices, but it uses too much RAM, which this tablet doesn't have.. Therefore I tried to stay away from GNOME.
 
