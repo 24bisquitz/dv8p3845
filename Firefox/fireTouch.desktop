@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec="/home/inad/custom/fireTouch.sh"
+Exec="/.../fireTouch.sh"
 Hidden=false
 NoDisplay=false
 Name=Firefox Touch App
