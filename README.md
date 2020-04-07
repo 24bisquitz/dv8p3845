@@ -4,6 +4,8 @@ Here You can find some workarounds and tweaks for different Linux OSs on the **D
 
 I have tried several OSs with the new Kernel (>5.0) and You can read about which one would suit your needs best. All OS were 64-bit except for Manjaro Xfce.
 
+GNOME surely would be the best interface for touchscreen-devices, but it uses too much RAM, which this tablet doesn't have.. Therefore I tried to stay away from GNOME.
+
 # DV8P Specs
 - **CPU**: Intel Atom Z3735G; Quad-core 1.33-1.83GHz; 2MB cache; 64-bit supported
 - **GPU**: Intel HD integrated graphics (Bay Trail)
