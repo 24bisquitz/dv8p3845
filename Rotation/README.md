@@ -1,3 +1,6 @@
 # Scripts to resolve rotation issues
 
-There are .desktop files and corresponding shell scripts, as well as a config-file in case the automatic rotation is off.
+If the automatic rotation works OOTB (e. g. in elementaryOS 5.1), it may be off by 90°. To solve this issue, You need to place the **61-sensor-local.hwdb** file in the `/etc/udev/hwdb.d/ directory`.
+
+Otherwise, You can use the .desktop files and corresponding shell scripts to rotate Your display into Landscape or Portrait mode.
+Be sure to specify the paths to the scripts in the .desktop files!
