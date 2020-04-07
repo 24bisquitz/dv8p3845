@@ -1,4 +1,4 @@
-# copy the file to /etc/udev/hwdb.d/ (you may need to create this directory first) to apply changes
+# copy this file to /etc/udev/hwdb.d/ (you may need to create this directory first) to apply changes
 
 sensor:modalias:acpi:INVN6500*:dmi:*:svnDell*:pnVenue8Pro3845:*
  ACCEL_MOUNT_MATRIX=0, -1, 0; -1, 0, 0; 0, 0, 1
