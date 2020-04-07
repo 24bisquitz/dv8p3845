@@ -1,5 +1,12 @@
 #!/bin/bash
-# Control monitor brightness
-brightness_lvl=0.7
+#
+### Script to control the monitor brightness ###
+
+# set the preferred brightness level here! (value must be between 0 and 1)
+bright_lvl=0.7
+
+# get the screen
 screen=$(xrandr | grep " connected" | cut -f1 -d" ")
-xrandr --output $screen --brightness $brightness_lvl;
+
+# adjust brightness
+xrandr --output $screen --brightness $bright_lvl;
