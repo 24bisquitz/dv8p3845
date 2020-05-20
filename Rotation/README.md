@@ -4,3 +4,5 @@ If the automatic rotation works OOTB (e. g. in elementaryOS 5.1), it may be off 
 
 Otherwise, You can use the .desktop files and corresponding shell scripts to rotate Your display into Landscape or Portrait mode.
 Be sure to specify the paths to the scripts in the .desktop files!
+
+Put the .desktop files either into `/usr/local/share/applications` or `/usr/share/applications`.
