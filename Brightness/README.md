@@ -1,3 +1,6 @@
+# Automatic Brightness Adjustment
+Download this driver (https://github.com/jfwells/linux-asus-t100ta/tree/master/cm3218_ambient_light_sensor_driver) and follow the installation instructions (install/update the `kernel-devel` package if you get errors during "make").
+
 # Script to adjust display brightness
 
 If the display brightness is not adjustable by GUI and You don't want to adjust it in the terminal every time, this script can be used to set it to a certain value at system startup or every time it is executed. 
