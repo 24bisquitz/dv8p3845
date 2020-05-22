@@ -1,5 +1,14 @@
 # Automatic Brightness Adjustment
-Download this driver (https://github.com/jfwells/linux-asus-t100ta/tree/master/cm3218_ambient_light_sensor_driver) and follow the installation instructions (install/update the `kernel-devel` package if you get errors during "make").
+Download the driver for the Ambient Light Sensor (https://github.com/hadess/cm3218) and install it:
+
+Make sure `kernel-devel`, `flex`, `bison` packages are up-to-date/installed:
+`sudo dnf install kernel-devel && flex && bison`
+
+Navigate to the folder with the downloaded driver:
+`cd ~/<your folder>/cm3218-master`
+
+Make the module:
+`sudo make`
 
 # Script to adjust display brightness
 
