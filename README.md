@@ -46,7 +46,7 @@ First of all, I tested the Android x86 (link) project, which worked quite well f
 
 ## Useful preinstalled apps
 
-# Fedora 31 LXDE
+# Fedora 32 LXDE
 ## Installation:
 
 ## Things that work OOTB:
@@ -72,6 +72,8 @@ First of all, I tested the Android x86 (link) project, which worked quite well f
 - **Touch**:
 
 ## Overall impression:
+
+Openbox configuration is explained here very well: https://urukrama.wordpress.com/openbox-guide/#Configuring
 
 ## Useful preinstalled apps
 
