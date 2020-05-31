@@ -16,10 +16,13 @@ There is a way to enable the automatic brightness adjustment via the internal am
 Download the driver for the Ambient Light Sensor (https://github.com/hadess/cm3218) and install it:
 
 Make sure `kernel-devel`, `flex`, `bison` packages are up-to-date/installed:
+
 `sudo dnf install kernel-devel && flex && bison`
 
 Navigate to the folder with the downloaded driver:
+
 `cd ~/<your folder>/cm3218-master`
 
 Make the module:
+
 `sudo make`
