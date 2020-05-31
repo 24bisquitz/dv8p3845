@@ -8,7 +8,7 @@ To use keybindings for the backlight adjustment on-the-go, xbindkeys and xbackli
 
 `sudo dnf install xbacklight && xbindkeys`
 
-Then, put the `.xbindkeys`-file into your home directory. This will enable you to use you homebutton together with the volume up or down buttons to adjust the display brightness manually.
+Then, put the `.xbindkeysrc`-file into your home directory. This will enable you to use you homebutton together with the volume-up or -down buttons to adjust the display brightness manually.
 
 # Automatic Brightness Adjustment
 There is a way to enable the automatic brightness adjustment via the internal ambient light sensor. However, this does not work yet on newer kernels.
