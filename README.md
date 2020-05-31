@@ -65,25 +65,19 @@ The most lightweight OS in this list. Fastest on this tablet, so I'm going to st
 
 # Fedora 31 LXQt
 ## Installation:
+Same as LXDE - easy and fast: created bootable USB with Fedora Media Writer, installation took ~24 min.
 
 ## Things that work OOTB: :+1:
-- **Bluetooth**:
 - **Wifi**:
-- **Camera**:
 - **Audio**:
 - **Brightness Adjustment**:
-- **Rotation**:
 - **Touch**:
 
 ## Things that don't work OOTB: :-1:
 - **Bluetooth**:
-- **Wifi**:
 - **Camera**:
-- **Audio**:
-- **Brightness Adjustment**:
 - **Automatic Brightness Adjustment**:
 - **Rotation**:
-- **Touch**:
 
 ## Overall impression:
 
