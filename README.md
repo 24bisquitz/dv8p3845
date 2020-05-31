@@ -18,48 +18,46 @@ GNOME surely would be the best interface for touchscreen-devices, but it uses to
 
 # Androidx86 9.0r1
 ## Installation:
+To boot and install from USB, it needs an extra EFI partition with the bootloader (bootia32.efi and grub). Installation itself is uncomplicated if the USB is partitioned correctly.
 
 ## Things that work OOTB:
-- **Bluetooth**:
 - **Wifi**:
-- **Camera**:
 - **Audio**:
 - **Brightness Adjustment**:
 - **Rotation**:
-- **Powerbutton**:
-- **Login**:
 - **Touch**:
 
 ## Things that don't work OOTB:
 - **Bluetooth**:
-- **Wifi**:
 - **Camera**:
-- **Audio**:
-- **Brightness Adjustment**:
-- **Rotation**:
-- **Powerbutton**:
-- **Login**:
-- **Touch**:
+- **Battery Power Management**
+- **Automatic Brightness Adjustment**:
+
+Camera doesn’t work
+Bluetooth doesn’t work
+Battery Monitor doesn’t work
+Automatic brightness adjustment doesn’t work
+Wifi kinda freaky
 
 ## Overall impression:
-First of all, I tested the Android x86 (link) project, which worked quite well for 5-6 hours, but then started freezing randomly. I saw some hints on the net, that the problem might be with the google apps, but I have not investigated this matter any further.
-
-## Useful preinstalled apps
+First of all, I tested the [Android x86](https://www.android-x86.org/) project, which worked quite well for 5-6 hours, but then started freezing randomly. I saw some hints on the net, that the problem might be with the google apps, but I have not investigated this matter any further. It may be useful to try the [x86 LineageOS Version](https://www.android-x86.org/releases/releasenote-cm-x86-14-1-r4.html).
 
 # Fedora 32 LXDE
 ## Installation:
 Easy and fast: created bootable USB with Fedora Media Writer, installation took ~24 min.
+
 ## Things that work OOTB:
 - **Bluetooth**
 - **Wifi**
 - **Audio**
-- **Powerbutton**
 - **Touch**
 
 ## Things that don't work OOTB:
 - **Camera**
 - **Brightness Adjustment**
+- **Automatic Brightness Adjustment**:
 - **Rotation**
+- **Battery Power Management**
 
 ## Overall impression:
 
@@ -77,8 +75,6 @@ Openbox configuration is explained here very well: https://urukrama.wordpress.co
 - **Audio**:
 - **Brightness Adjustment**:
 - **Rotation**:
-- **Powerbutton**:
-- **Login**:
 - **Touch**:
 
 ## Things that don't work OOTB:
@@ -87,9 +83,8 @@ Openbox configuration is explained here very well: https://urukrama.wordpress.co
 - **Camera**:
 - **Audio**:
 - **Brightness Adjustment**:
+- **Automatic Brightness Adjustment**:
 - **Rotation**:
-- **Powerbutton**:
-- **Login**:
 - **Touch**:
 
 ## Overall impression:
