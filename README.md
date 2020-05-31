@@ -55,7 +55,8 @@ Easy and fast: created bootable USB with Fedora Media Writer, installation took 
 
 ## Overall Impression:
 The most lightweight OS in this list. Fastest on this tablet, so I'm going to stick with it. Requires a lot of configuration though to make it touch-friendly. There is a great guide for the [Openbox configuration](https://urukrama.wordpress.com/openbox-guide/#Configuring), other tweaks can be found in this directory.
-# Problems and Solutions:
+
+## Problems and Solutions:
 - Automatic headphones detection doesn’t work (plugging into audio jack doesn’t trigger audio output to switch to headphones). It seems that the speakers and the headphones port are recognized as one output.. I have tried to alter `~/.config/pulse/default.pa` with the `module-switch-on-connect`, but to no avail.
 - No rightclick without a mouse :point_right: xbindkeys & xdotool to use homebutton as rightclick
 - Doubleclick is messy and gets locked up sometimes :point_right: press homebutton to reverse the effect
