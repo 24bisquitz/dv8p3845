@@ -58,7 +58,7 @@ The most lightweight OS in this list. Fastest on this tablet, so I'm going to st
 
 ## Problems and Solutions:
 - Automatic headphones detection doesn’t work (plugging into audio jack doesn’t trigger audio output to switch to headphones). It seems that the speakers and the headphones port are recognized as one output.. I have tried to alter `~/.config/pulse/default.pa` with the `module-switch-on-connect`, but to no avail.
-- No rightclick without a mouse :point_right: xbindkeys & xdotool to use homebutton as rightclick
+- No rightclick without a mouse :point_right: xbindkeys & xdotool to use doubletap on the homebutton as rightclick
 - Doubleclick is messy and gets locked up sometimes :point_right: press homebutton to reverse the effect
 - Logging in without a physical keyboard is only possible if user password is disabled
 - Great themes: [Numix Circle Light icon theme](https://github.com/numixproject/numix-icon-theme-circle), [Dark Party](https://www.box-look.org/p/1281850/)
