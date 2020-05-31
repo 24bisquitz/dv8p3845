@@ -20,55 +20,53 @@ GNOME surely would be the best interface for touchscreen-devices, but it uses to
 ## Installation:
 To boot and install from USB, it needs an extra EFI partition with the bootloader (bootia32.efi and grub). Installation itself is uncomplicated if the USB is partitioned correctly.
 
-## Things that work OOTB:
-- **Wifi**:
-- **Audio**:
-- **Brightness Adjustment**:
-- **Rotation**:
-- **Touch**:
+## Things that work OOTB: :+1:
+- **Wifi**
+- **Audio**
+- **Brightness Adjustment**
+- **Rotation**
+- **Touch**
 
-## Things that don't work OOTB:
-- **Bluetooth**:
-- **Camera**:
+## Things that don't work OOTB: :-1:
+- **Bluetooth**
+- **Camera**
 - **Battery Power Management**
-- **Automatic Brightness Adjustment**:
-
-Camera doesn’t work
-Bluetooth doesn’t work
-Battery Monitor doesn’t work
-Automatic brightness adjustment doesn’t work
-Wifi kinda freaky
+- **Automatic Brightness Adjustment**
 
 ## Overall impression:
-First of all, I tested the [Android x86](https://www.android-x86.org/) project, which worked quite well for 5-6 hours, but then started freezing randomly. I saw some hints on the net, that the problem might be with the google apps, but I have not investigated this matter any further. It may be useful to try the [x86 LineageOS Version](https://www.android-x86.org/releases/releasenote-cm-x86-14-1-r4.html).
+First of all, I tested the [Android x86](https://www.android-x86.org/) project, which worked quite well for 5-6 hours, but then started freezing randomly. I saw some hints on the net, that the problem might be with the google apps, but I have not investigated this matter any further. It may be useful to try the [x86 LineageOS Version](https://www.android-x86.org/releases/releasenote-cm-x86-14-1-r4.html). The Android environment is very touch-friendly and requires the least tweaking.
 
-# Fedora 32 LXDE
+# Fedora 31/32 LXDE
 ## Installation:
 Easy and fast: created bootable USB with Fedora Media Writer, installation took ~24 min.
 
-## Things that work OOTB:
+## Things that work OOTB: :+1:
 - **Bluetooth**
 - **Wifi**
 - **Audio**
 - **Touch**
 
-## Things that don't work OOTB:
+## Things that don't work OOTB: :-1:
 - **Camera**
 - **Brightness Adjustment**
 - **Automatic Brightness Adjustment**:
 - **Rotation**
 - **Battery Power Management**
 
-## Overall impression:
-
-Openbox configuration is explained here very well: https://urukrama.wordpress.com/openbox-guide/#Configuring
-
-## Useful preinstalled apps
+## Overall Impression:
+The most lightweight OS in this list. Fastest on this tablet, so I'm going to stick with it. Requires a lot of configuration though to make it touch-friendly. There is a great guide for the [Openbox configuration](https://urukrama.wordpress.com/openbox-guide/#Configuring), other tweaks can be found in this directory.
+# Problems and Solutions:
+- Automatic headphones detection doesn’t work (plugging into audio jack doesn’t trigger audio output to switch to headphones). It seems that the speakers and the headphones port are recognized as one output.. I have tried to alter `~/.config/default.pa` with the `module-switch-on-connect`, but to no avail.
+- No rightclick without a mouse :point_right: xbindkeys & xdotool to use homebutton as rightclick
+- Doubleclick is messy and gets locked up sometimes :point_right: press homebutton to reverse the effect
+- Logging in without a physical keyboard is only possible if user password is disabled
+- Great themes: [Numix Circle Light icon theme](https://github.com/numixproject/numix-icon-theme-circle), [Dark Party](https://www.box-look.org/p/1281850/)
+- `iio-sensor-proxy` quirk to enable automatic rotation stopped working after kernel update (>5.2) :point_right: use two custom scripts instead to rotate display and touchscreen into landscape or portrait mode
 
 # Fedora 31 LXQt
 ## Installation:
 
-## Things that work OOTB:
+## Things that work OOTB: :+1:
 - **Bluetooth**:
 - **Wifi**:
 - **Camera**:
@@ -77,7 +75,7 @@ Openbox configuration is explained here very well: https://urukrama.wordpress.co
 - **Rotation**:
 - **Touch**:
 
-## Things that don't work OOTB:
+## Things that don't work OOTB: :-1:
 - **Bluetooth**:
 - **Wifi**:
 - **Camera**:
@@ -89,12 +87,11 @@ Openbox configuration is explained here very well: https://urukrama.wordpress.co
 
 ## Overall impression:
 
-## Useful preinstalled apps
 
 # Fedora 31 Xfce
 ## Installation:
 
-## Things that work OOTB:
+## Things that work OOTB: :+1:
 - **Bluetooth**:
 - **Wifi**:
 - **Camera**:
@@ -105,7 +102,7 @@ Openbox configuration is explained here very well: https://urukrama.wordpress.co
 - **Login**:
 - **Touch**:
 
-## Things that don't work OOTB:
+## Things that don't work OOTB: :-1:
 - **Bluetooth**:
 - **Wifi**:
 - **Camera**:
@@ -123,7 +120,7 @@ Openbox configuration is explained here very well: https://urukrama.wordpress.co
 # ElementaryOS 5.1 Hera (18.04.3 Ubuntu LTS)
 ## Installation:
 
-## Things that work OOTB:
+## Things that work OOTB: :+1:
 - **Bluetooth**:
 - **Wifi**:
 - **Camera**:
@@ -134,7 +131,7 @@ Openbox configuration is explained here very well: https://urukrama.wordpress.co
 - **Login**:
 - **Touch**:
 
-## Things that don't work OOTB:
+## Things that don't work OOTB: :-1:
 - **Bluetooth**:
 - **Wifi**:
 - **Camera**:
@@ -152,7 +149,7 @@ Openbox configuration is explained here very well: https://urukrama.wordpress.co
 # Ubuntu MATE 19.04 Minimal
 ## Installation:
 
-## Things that work OOTB:
+## Things that work OOTB: :+1:
 - **Bluetooth**:
 - **Wifi**:
 - **Camera**:
@@ -163,7 +160,7 @@ Openbox configuration is explained here very well: https://urukrama.wordpress.co
 - **Login**:
 - **Touch**:
 
-## Things that don't work OOTB:
+## Things that don't work OOTB: :-1:
 - **Bluetooth**:
 - **Wifi**:
 - **Camera**:
@@ -181,7 +178,7 @@ Openbox configuration is explained here very well: https://urukrama.wordpress.co
 # Manjaro Xfce 32-bit 18.0.4 Illyria
 ## Installation:
 
-## Things that work OOTB:
+## Things that work OOTB: :+1:
 - **Bluetooth**:
 - **Wifi**:
 - **Camera**:
@@ -192,7 +189,7 @@ Openbox configuration is explained here very well: https://urukrama.wordpress.co
 - **Login**:
 - **Touch**:
 
-## Things that don't work OOTB:
+## Things that don't work OOTB: :-1:
 - **Bluetooth**:
 - **Wifi**:
 - **Camera**:
