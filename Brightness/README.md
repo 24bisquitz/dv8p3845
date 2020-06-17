@@ -26,3 +26,7 @@ Navigate to the folder with the downloaded driver:
 Make the module:
 
 `sudo make`
+
+Test the module:
+
+`sudo modprobe cm3218`
