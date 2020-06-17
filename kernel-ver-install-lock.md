@@ -19,10 +19,10 @@ to use this version on boot.
 **2. Set default boot entry**
 Check your default kernel:
 
-`grubby --default-kernel`
+`sudo grubby --default-kernel`
 
 Change the default kernel version to one of your choice:
 
-`grubby --set-default /boot/vmlinuz-X.X.X-X.fcXX.x86_64`
+`sudo grubby --set-default /boot/vmlinuz-X.X.X-X.fcXX.x86_64`
 
 **ALL DONE!** :)
