@@ -148,7 +148,6 @@ The 64-bit OS needs bootia32.efi to work. I was only able to test the Live-USB v
 ## Things that work OOTB: :+1:
 - **Wifi**
 - **Audio**
-- **Brightness Adjustment**
 - **Touch**
 
 ## Things that don't work OOTB: :-1:
@@ -158,3 +157,4 @@ The 64-bit OS needs bootia32.efi to work. I was only able to test the Live-USB v
 - **Rotation**
 
 ## Overall impression:
+Good looks, touch-friendly (big icons, touch-scrolling works). LightDM greeter preinstalled. Also some Microsoft stuff (Office, Skype).
