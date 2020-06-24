@@ -10,7 +10,7 @@ To use keybindings for the backlight adjustment on-the-go, xbindkeys and xbackli
 
 Then, put the `.xbindkeysrc`-file into your home directory. This will enable you to use you homebutton together with the volume-up or -down buttons to adjust the display brightness manually.
 
-# Automatic Brightness Adjustment
+# Automatic Brightness Adjustment --- currently not working ---
 There is a way to enable the automatic brightness adjustment via the internal ambient light sensor. However, this does not work yet on newer kernels (>5.4), because `make` fails. (Error: /Documentation/Kconfig missing)
 
 Download the driver for the Ambient Light Sensor (https://github.com/hadess/cm3218) and install it:
@@ -26,6 +26,8 @@ Navigate to the folder with the downloaded driver:
 Make the module:
 
 `sudo make`
+
+**--- Problem: implicit function declaration in the driver code ---**
 
 Test the module:
 
