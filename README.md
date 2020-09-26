@@ -4,7 +4,7 @@ In this repo you can find some workarounds and tweaks for different Linux OSs on
 
 I want to use this tablet for fairly simple tasks: Browse the internet, watch movies, listen to music and maybe use it at the uni during lectures. This implies several apps, which I want to use: Firefox, VLC, <music app name here>, Xournal/Xournal++ and a separate pdf-reader.
 
-I have tried and compared several OSs with new kernels (>5.0) and below you can read about which one would suit your needs best. All OSs were 64-bit except for Manjaro Xfce.
+I have tried and compared several OSs with new kernels (>5.0), so below you can find out about which one would suit your needs best. All OSs were 64-bit except for Manjaro Xfce.
 
 GNOME surely would be the best interface for touchscreen-devices, but it uses too much RAM, which this tablet doesn't have.. Therefore I tried to stay away from GNOME and mainly focused on Fedora.
 
