@@ -1,12 +1,12 @@
 # Using Linux on the Dell Venue 8 Pro (3845) Tablet
 
-Here You can find some workarounds and tweaks for different Linux OSs on the **Dell Venue 8 Pro (3845)** Tablet, to make them tablet friendly and usable on a low-end tablet like the DV8P.
+In this repo you can find some workarounds and tweaks for different Linux OSs on the **Dell Venue 8 Pro (3845)** Tablet, to make them tablet friendly and usable on a low-end tablet like the DV8P.
 
 I want to use this tablet for fairly simple tasks: Browse the internet, watch movies, listen to music and maybe use it at the uni during lectures. This implies several apps, which I want to use: Firefox, VLC, <music app name here>, Xournal/Xournal++ and a separate pdf-reader.
 
-I have tried several OSs with new kernels (>5.0) and below You can read about which one would suit your needs best. All OSs were 64-bit except for Manjaro Xfce.
+I have tried and compared several OSs with new kernels (>5.0) and below you can read about which one would suit your needs best. All OSs were 64-bit except for Manjaro Xfce.
 
-GNOME surely would be the best interface for touchscreen-devices, but it uses too much RAM, which this tablet doesn't have.. Therefore I tried to stay away from GNOME.
+GNOME surely would be the best interface for touchscreen-devices, but it uses too much RAM, which this tablet doesn't have.. Therefore I tried to stay away from GNOME and mainly focused on Fedora.
 
 # DV8P Specs
 - **CPU**: Intel Atom Z3735G; Quad-core 1.33-1.83GHz; 2MB cache; 64-bit supported
@@ -38,7 +38,7 @@ First of all, I tested the [Android x86](https://www.android-x86.org/) project, 
 
 # Fedora 31/32 LXDE
 ## Installation:
-Easy and fast: created bootable USB with Fedora Media Writer, installation took ~24 min.
+Easy and fast: created a bootable USB with Fedora Media Writer, installation took ~24 min.
 
 ## Things that work OOTB: :+1:
 - **Bluetooth**
@@ -59,16 +59,16 @@ The most lightweight OS in this list. Fastest on this tablet, so I'm going to st
 
 ## Problems and Solutions:
 - Automatic headphones detection doesn’t work (plugging into audio jack doesn’t trigger audio output to switch to headphones). It seems that the speakers and the headphones port are recognized as one output.. I have tried to alter `~/.config/pulse/default.pa` with the `module-switch-on-connect`, but to no avail.
-- No rightclick without a mouse :point_right: xbindkeys & xdotool to use doubletap on the homebutton as rightclick
+- No rightclick without a mouse :point_right: `xbindkeys` & `xdotool` to use doubletap on the homebutton as rightclick
 - Doubleclick is messy and gets locked up sometimes :point_right: press (& hold) homebutton to reverse the effect
-- Logging in without a physical keyboard is only possible if user password is disabled
+- Logging in without a physical keyboard is only possible if the user password is disabled or if you use a different Login Greeter.
 - Great themes: [Numix Circle Light icon theme](https://github.com/numixproject/numix-icon-theme-circle), [Dark Party](https://www.box-look.org/p/1281850/)
 - `iio-sensor-proxy` quirk to enable automatic rotation stopped working after kernel update (>5.2) :point_right: use two custom scripts instead to rotate display and touchscreen into landscape or portrait mode
 - Xournal++ needs to be configured for touch use first (using a mouse) :point_right: `Edit > Preferences > Touchscreen > Enable GTK Touch (workaround)`. Still not ideal though, the menu is laggy. Xournal works better on touch, but has less functions.
 
 # Fedora 31 LXQt
 ## Installation:
-Same as LXDE - easy and fast: created bootable USB with Fedora Media Writer, installation took ~24 min.
+Same as above - easy and fast: created a bootable USB with Fedora Media Writer, installation took ~24 min.
 
 ## Things that work OOTB: :+1:
 - **Wifi**
@@ -83,12 +83,11 @@ Same as LXDE - easy and fast: created bootable USB with Fedora Media Writer, ins
 - **Rotation**
 
 ## Overall impression:
-The login greeter looks better than in LXDE and LXQt is overall user-friendlier OOTB. However it still requires a lot of tweaking to become touch-friendly.
-
+The login greeter looks better than in LXDE and LXQt is overall user-friendlier OOTB (e. g. doubleclick works). However it still requires a big amount (comparable to LXDE) of tweaking to become touch-friendly.
 
 # Fedora 31 Xfce
 ## Installation:
-
+Create a bootable USB with Fedora Media Writer. Installation took ~26 min.
 ## Things that work OOTB: :+1:
 - **Bluetooth**
 - **Wifi**
@@ -102,11 +101,11 @@ The login greeter looks better than in LXDE and LXQt is overall user-friendlier 
 - **Rotation**
 
 ## Overall impression:
-Firefox is preinstalled. Lots of GUI settings.
+OS consumes about 2-10% CPU and 64% RAM in idle mode - more than LXDE. Firefox is preinstalled. Lots of GUI settings.
 
 # ElementaryOS 5.1 Hera (18.04.3 Ubuntu LTS)
 ## Installation:
-
+Installation takes a lot of time - over 51 min.
 ## Things that work OOTB: :+1:
 - **Bluetooth**
 - **Wifi**
@@ -120,11 +119,12 @@ Firefox is preinstalled. Lots of GUI settings.
 - **Automatic Brightness Adjustment**
 
 ## Overall impression:
+Overall performance is fine if not to many apps are opened at once, but F31LXDE is faster. Background apps consume ~100 MiB of memory when nothing else is running and you need to disable animations in Universal Access Settings.
+Rotation works, but is off (needs a small adjustment to get it right). Wifi works, but is unstable (connection is randomly lost). I also experienced some audio problems - the input device (Microphone) wasn't located, and the output device could not be determined; volume buttons didn’t work as well.
 
 # Ubuntu MATE 19.04 Minimal
 ## Installation:
-Just extract ISO to FAT32-formatted USB and add a **bootia32.efi** to `EFI/boot/`. Otherwise its easy and fast.
-
+Just extract the ISO to a FAT32-formatted USB and add a **bootia32.efi** to `EFI/boot/`. Otherwise its easy and fast.
 ## Things that work OOTB: :+1:
 - **Bluetooth**
 - **Wifi**
@@ -138,7 +138,8 @@ Just extract ISO to FAT32-formatted USB and add a **bootia32.efi** to `EFI/boot/
 - **Rotation**
 
 ## Overall impression:
-LightDM login greeter, Firefox and Onboard preinstalled.
+LightDM login greeter, Firefox and Onboard preinstalled. Onboard works on the login screen unlike with the Fedora flavours.
+Use MATE Tweaks to set the Panel to **Cupertine** (good for touch).
 
 # Manjaro Xfce 32-bit 18.0.4 Illyria
 ## Installation:
@@ -157,4 +158,4 @@ The 64-bit OS needs bootia32.efi to work. I was only able to test the Live-USB v
 - **Rotation**
 
 ## Overall impression:
-Good looks, touch-friendly (big icons, touch-scrolling works). LightDM greeter preinstalled. Also some Microsoft stuff (Office, Skype).
+Good looks, touch-friendly (big icons, touch-scrolling and doubleclick work OOTB). LightDM greeter preinstalled. Also some Microsoft stuff (Office, Skype). Quite a bit slower than Fedora LXDE.
