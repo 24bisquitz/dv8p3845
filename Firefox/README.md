@@ -6,4 +6,4 @@ Of course, You need to change the path to your Firefox in the .sh file and the p
 
 Alternatively, You can just add `MOZ_USE_XINPUT2 DEFAULT=1` to `/etc/security/pam_env.conf` and reboot or logout to confirm the changes. 
 
-Put the .desktop files either into `/usr/local/share/applications` or `/usr/share/applications` to show them in the menu.
+Put the .desktop files either into `/usr/local/share/applications` or `/usr/share/applications` to make them appear in the menu.
